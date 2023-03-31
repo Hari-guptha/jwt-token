@@ -1,0 +1,17 @@
+POST http://localhost:3232/signup
+Content-Type: application/json
+
+{
+    "username": "hari",
+    "password": "123"
+}
+###
+
+POST http://localhost:3232/login
+Content-Type: application/json
+
+{
+    "username": "hari",
+    "password": "123"
+}
+
